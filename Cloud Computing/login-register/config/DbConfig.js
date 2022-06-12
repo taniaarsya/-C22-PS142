@@ -1,0 +1,1 @@
+exports.mongoURL = 'mongodb://192.168.1.3:27017/ecorish'
