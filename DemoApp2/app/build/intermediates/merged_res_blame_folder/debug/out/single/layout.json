@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/fragment_shop.xml",
+        "source": "com.example.demoapp-main-29:/layout/fragment_shop.xml"
+    },
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/fragment_home.xml",
+        "source": "com.example.demoapp-main-29:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/fragment_dashboard.xml",
+        "source": "com.example.demoapp-main-29:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/activity_add_sharing.xml",
+        "source": "com.example.demoapp-main-29:/layout/activity_add_sharing.xml"
+    },
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/activity_sharing.xml",
+        "source": "com.example.demoapp-main-29:/layout/activity_sharing.xml"
+    },
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/fragment_donate.xml",
+        "source": "com.example.demoapp-main-29:/layout/fragment_donate.xml"
+    },
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/fragment_sharing.xml",
+        "source": "com.example.demoapp-main-29:/layout/fragment_sharing.xml"
+    },
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/activity_main.xml",
+        "source": "com.example.demoapp-main-29:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/fragment_account.xml",
+        "source": "com.example.demoapp-main-29:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/list_sharing.xml",
+        "source": "com.example.demoapp-main-29:/layout/list_sharing.xml"
+    },
+    {
+        "merged": "com.example.demoapp-mergeDebugResources-26:/layout/fragment_notifications.xml",
+        "source": "com.example.demoapp-main-29:/layout/fragment_notifications.xml"
+    }
+]

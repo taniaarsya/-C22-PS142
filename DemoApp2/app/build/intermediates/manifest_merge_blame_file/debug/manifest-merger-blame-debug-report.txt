@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.demoapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:6:5-32:19
+12        android:allowBackup="true"
+12-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\user\.gradle\caches\transforms-3\e36cb75ae4f72b56337362533afd3af2\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.DemoApp" >
+22-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:14:9-45
+23        <activity
+23-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:16:9-18:40
+24            android:name="com.example.demoapp.SharingActivity"
+24-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:17:13-44
+25            android:exported="false" />
+25-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:18:13-37
+26        <activity
+26-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:19:9-21:39
+27            android:name="com.example.demoapp.AddSharingActivity"
+27-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:20:13-47
+28            android:exported="true" />
+28-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:21:13-36
+29        <activity
+29-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:22:9-31:20
+30            android:name="com.example.demoapp.MainActivity"
+30-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:23:13-41
+31            android:exported="true"
+31-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:24:13-36
+32            android:label="@string/app_name" >
+32-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:25:13-45
+33            <intent-filter>
+33-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:26:13-30:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:27:17-69
+34-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:27:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:29:17-77
+36-->D:\Capstone-Project\Ecorish-C22-PS142\DemoApp2\app\src\main\AndroidManifest.xml:29:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-3\f8c3a2d54a1f6b0b3e278b2d65a06c8b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+41            android:name="com.squareup.picasso.PicassoProvider"
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-3\f8c3a2d54a1f6b0b3e278b2d65a06c8b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+42            android:authorities="com.example.demoapp.com.squareup.picasso"
+42-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-3\f8c3a2d54a1f6b0b3e278b2d65a06c8b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+43            android:exported="false" />
+43-->[com.squareup.picasso:picasso:2.71828] C:\Users\user\.gradle\caches\transforms-3\f8c3a2d54a1f6b0b3e278b2d65a06c8b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+44    </application>
+45
+46</manifest>
